@@ -1,0 +1,22 @@
+<ion-content padding style="background-color:black;">
+  <ion-buttons end>
+    <button ion-button icon-only (click)="sair()" class="botao-superior">
+      <ion-icon name="power"></ion-icon>
+    </button>
+  </ion-buttons>
+  <h2 class="azul h2">SMART HOME</h2>
+  <hr>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <button ion-button clear (click)="navegar('i')"><img src="img/lampada.png" /></button>
+      </ion-col>
+
+      <ion-col col-6>
+        <button ion-button clear (click)="navegar('p')"><img src="img/porta.png" /></button>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,33 @@
+page-iluminacao {
+    .azul {
+        color: #009fc7
+    }
+
+    .h2 {
+        text-align: center;
+    }
+
+    .content-md hr {
+        background-color: #009fc7 !important;
+    }
+
+    .item-md {
+        color: #009fc7 !important;
+        background-color: #000 !important;
+    }
+
+    .item-md.item-block .item-inner {
+        border-bottom: 1px solid #009fc7;
+    }
+
+    .toggle-md.toggle-checked .toggle-icon {
+        background-color: #009fc7;
+    }
+
+    .button-md {
+        position: absolute !important;
+        color: #009ac1 !important;
+        background-color: #000 !important;
+        height: 4.6rem !important;
+    }
+}

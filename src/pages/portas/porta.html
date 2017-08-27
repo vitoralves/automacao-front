@@ -1,0 +1,23 @@
+<ion-content padding style="background-color:black;">
+  <!-- Only icon (no text) -->
+  <button ion-button icon-only (click)="voltar()">
+    <ion-icon name="arrow-round-back"></ion-icon>
+  </button>
+  
+  <h2 class="azul h2">PORTAS</h2>
+  <hr>
+
+   <ion-grid>
+    <ion-row>
+      <ion-col col-8>
+        <p class="p">Garagem</p>
+      </ion-col>
+
+      <ion-col col-4>
+        <button ion-button outline azul (click)="acionarGaragem()">Acionar</button>
+      </ion-col>
+
+    </ion-row>
+   </ion-grid>
+
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-content padding style="background-color:black;">
+  <!-- Only icon (no text) -->
+  <button ion-button icon-only (click)="voltar()">
+    <ion-icon name="arrow-round-back"></ion-icon>
+  </button>
+
+  <h2 class="azul h2">ILUMINAÇÃO</h2>
+  <hr>
+
+  <ion-item>
+    <ion-label>Quarto Vitor</ion-label>
+    <ion-toggle [checked]="lVitor" (ionChange)="alteraRele()"></ion-toggle>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Quarto José</ion-label>
+    <ion-toggle checked="false"></ion-toggle>
+  </ion-item>
+</ion-content>

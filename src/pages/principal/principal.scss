@@ -1,0 +1,29 @@
+page-principal {
+    .azul {
+        color: #009fc7
+    }
+
+    .h2 {
+        text-align: center;
+    }
+
+    .content-md hr {
+        background-color: #009fc7 !important;
+    }
+
+    .botoes {
+        width: 100%;
+    }
+
+    .button-clear-md {
+        height: 150px !important;
+    }
+
+    .botao-superior {
+        position: absolute !important;
+        color: #009ac1 !important;
+        background-color: #000 !important;
+        height: 4.6rem !important;
+        margin-left: -48px;
+    }
+}
